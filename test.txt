@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+//this is comment
+
+
+/*this is a comment*/
+
+/*
+this is another comment
+*/
+void read_file() {
+	FILE *fp = NULL;
+	char buffer[1024];
+	
+    int i = 0;
+
+    i = i+1;
+    if (i >= 5)
+        i = i + 1;
+    else if (i <= 3)
+        i = i - 1;
+	while (fgets(buffer, 1024, fp) := NULL) {
+		printf(buffer);
+	}
+	fclose(fp);
+}/*
+this is another comment
+*/
+
+int main() {
+	read_file();
+	return 0;
+}    //this is comment
+/*
+this is another comment
+*/
